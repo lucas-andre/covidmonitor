@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CovidMonitor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/43a41f587b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- Start Nav Section -->
+    <nav id="navbar" class="navbar">
+        <ul class="nav-menu">
+            <h3><i class="fas fa-lungs-virus"></i> CovidMonitor</h3>
+            <li>
+                <a data-scroll="home" href="#home" class="dot active">
+                    <span>Casos no Brasil</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="about" href="#about" class="dot">
+                    <span>Sobre o Vírus</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="prevention" href="#prevention" class="dot">
+                    <span>Como Previnir</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End Nav Section -->
+
+    <main>
+        <section id="home">
+            <h1><span id="date"></span> - Casos da Covid19 no <span id="country"></span></h1>
+            <div class="cards-list">
+
+                <div class="card 1">
+                    <div class="card_image"> <img src="pexels-anna-shvets-3902882.jpg" /> </div>
+                    <div class="card_title title-white">
+                        <span id="active"></span>
+                        <p>Casos Ativos</p>
+                    </div>
+                </div>
+
+                <div class="card 2">
+                    <div class="card_image">
+                        <img src="pexels-thisisengineering-3913029.jpg" />
+                    </div>
+                    <div class="card_title title-white">
+                        <span id="cases"></span>
+                        <p>Casos no total</p>
+                    </div>
+                </div>
+
+                <div class="card 3">
+                    <div class="card_image">
+                        <img src="pexels-gerd-altmann-23180.jpg" />
+                    </div>
+                    <div class="card_title title-white">
+                        <span id="critical"></span>
+                        <p>Casos Críticos</p>
+                    </div>
+                </div>
+
+                <div class="card 4">
+                    <div class="card_image">
+                        <img src="pexels-sonny-sixteen-2314391.jpg" />
+                    </div>
+                    <div class="card_title title-white">
+                        <span id="death"></span>
+                        <p>Óbitos</p>
+                    </div>
+                </div>
+                <div class="card 4">
+                    <div class="card_image">
+                        <img src="pexels-josue-ladoo-pelegrin-3994650.jpg" />
+                    </div>
+                    <div class="card_title title-white">
+                        <span id="recovered"></span>
+                        <p>Recuperados</p>
+                    </div>
+                </div>
+                <div class="card 4">
+                    <div class="card_image">
+                        <img src="pexels-cottonbro-3952222.jpg" />
+                    </div>
+                    <div class="card_title title-white">
+                        <span id="tests"></span>
+                        <p>Testes Realizados</p>
+                    </div>
+                </div>
+                <p>Dados atualizados automaticamente e podem mudar várias vezes ao dia.</p>
+            </div>
+
+        </section>
+        <section id="about">
+            <div class="texto">
+                <h2>Sobre o Vírus</h2>
+                <p>A doença do coronavírus (COVID-19) é uma doença infecciosa causada por um coronavírus recém-descoberto. A maioria das pessoas que adoece em decorrência da COVID-19 apresentará sintomas leves a moderados e se recuperará sem tratamento especial.
+                    O Novo Coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS) e a doença que ele provoca tem a denominação COVID-19.</p>
+                <h3>Como a doença se espalha?</h3>
+                <p>O vírus que causa a COVID-19 é transmitido principalmente por meio de gotículas geradas quando uma pessoa infectada tosse, espirra ou exala. Essas gotículas são muito pesadas para permanecerem no ar e são rapidamente depositadas em pisos
+                    ou superfícies. Você pode ser infectado ao inalar o vírus se estiver próximo de alguém que tenha COVID-19 ou ao tocar em uma superfície contaminada e, em seguida, passar as mãos nos olhos, no nariz ou na boca.</p>
+                <h3>Qual a gravidade da doença?</h3>
+                <p>A COVID-19 apresenta sintomas leves na maioria dos casos, mas pode ser extremamente agressiva a uma minoria. Costuma ser mais perigoso para idosos com mais de 60 anos e pessoas com doenças pré-existentes. Portanto, a gravidade varia de
+                    acordo com a evolução dos sintomas e do grupo afetado.</p>
+                <h3>Qual a taxa de mortalidade do novo Coronavírus? Ele é mais mortal que a gripe?</h3>
+                <p>O número de mortes causadas por Coronavírus pode variar, depende da proporção da faixa etária da população, medidas para contenção do vírus, quantidade de casos que são realmente reportados às autoridades competentes e quão livre o sistema
+                    de saúde para receber os casos mais graves. A Organização Mundial da Saúde explica que o Coronavírus é mais mortal que a gripe, mas que é possível contê-lo. Enquanto 3,4% dos pacientes diagnosticados com SARS-CoV-2 entram em óbito,
+                    a porcentagem de pacientes mortos por gripe cai para 1%.</p>
+                <h3>Animais de estimação podem ter Coronavírus?</h3>
+                <p>Se expostos repetidamente a uma dose elevada do vírus, os pets podem sim pegar o novo Coronavírus, Sars-CoV-2. Já foram registrados casos da doença em bovinos, camelos, morcegos, cachorros e gatos. Ainda não há evidências científicas de
+                    que o Coronavírus em animais seja transmissível para humanos ou para outros animais da mesma espécie.</p>
+                <h3>É possível pegar o Coronavírus mais de uma vez?</h3>
+                <p>A Organização Pan-Americana da Saúde (OPAS) diz que "como se trata de um novo vírus, e sobre o qual ainda aprendemos mais todos os dias, no momento, não podemos dizer com certeza absoluta que uma pessoa infectada com o vírus não pode se
+                    infectar novamente." Não há registros científicos que comprovem imunidade após ser infectado uma vez pelo Coronavírus. Especialistas alertam sobre os perigos do chamado falso positivo, quando um exame indica um resultado que não reflete
+                    a realidade. Nessas situações, o segundo teste pode estar detectando materiais da primeira infecção, e não realmente de uma reincidência.</p>
+
+
+            </div>
+        </section>
+        <section id="prevention">
+            <div class="texto">
+                <h2>Como Previnir</h2>
+                <p>Durante o isolamento social, é importante:
+                    <ul>
+                        <li>manter as mãos higienizadas com água e sabão;</li>
+                        <li>limpar superfícies e objetos com frequência;</li>
+                        <li>espirrar ou tossir cobrindo a boca no antebraço;</li>
+                        <li>evitar beijos e abraços;</li>
+                        <li>não dividir objetos de uso pessoal como talheres, copos ou aparelhos eletrônicos.</li>
+                    </ul>
+                </p>
+                <h3>Preciso inevitavelmente pegar transporte público. O que fazer para me proteger?</h3>
+                <p>Caso o uso do transporte público seja necessário, a recomendação é para que use máscara, evite tocar em superfícies (como corrimões e apoios), utilize álcool em gel 70% para higienizar as mãos, evite sentar ao lado de outros passageiros
+                    e lave a mão com água e sabão assim que possível.</p>
+                <h3>Devo usar máscara facial ao sair de casa?</h3>
+                <p>No Brasil, muitas cidades e estados já decretaram obrigatório o uso da máscara em ambientes coletivos, seja público ou privado. O descumprimento da regra, em algumas localidades, pode acarretar multas. O uso da máscara ajuda a conter a
+                    proliferação do vírus. </p>
+                <h3>Como saber se você está infectado pelo vírus SARS-CoV-2?</h3>
+                <p>A melhor forma de saber se você foi infectado pelo novo Coronavírus é realizar uma avaliação médica. Para auxiliar no diagnóstico, existem alguns exames que são realizados em laboratórios de confiança, hospitais ou na rede pública de saúde.
+                    Atualmente, os exames mais comuns para a detecção da COVID-19 são o PCR e a Sorologia. O primeiro é o exame que CONFIRMA a presença do vírus usando um pedaço do código genético para identifica-lo. O segundo mostra que houve contato
+                    com o vírus, pois mede a resposta imune.</p>
+                <h3>Fui diagnosticado com COVID-19. E agora?</h3>
+                <p>Caso o seu resultado tenha dado positivo, é essencial seguir a orientação do médico, só ele pode definir qual é o melhor tratamento para cada caso. Lembramos que a maioria dos casos são assintomáticos ou apresentam sintomas de leves a
+                    moderados e não exigem internação. Nos casos graves, os sintomas passam a ser severos, e muitas vezes chegam a afetar mais de 50% do pulmão, o que pode ocasionar insuficiência respiratória e a necessidade do uso de ventilação mecânica
+                    em uma unidade de tratamento intensiva (UTI).</p>
+                <h3>Qual o tratamento para Coronavírus no Brasil?</h3>
+                <p>Não existe um tratamento específico, mas como um resfriado ou gripe, o tratamento é feito com sintomáticos para febre ou dor, hidratação e repouso. Além disso, como há o risco de disseminação da doença, o isolamento domiciliar é recomendado.
+                    No momento, ainda estão sendo desenvolvidos medicamentos e vacinas específicos para o novo Coronavírus. As pessoas que foram afetadas pela doença ou apresentarem sintomas devem procurar o serviço de saúde para receber instruções de
+                    tratamentos adequados. O tratamento deve ser sempre orientado por um médico.</p>
+                <h3>Existe vacina para Coronavírus?</h3>
+                <p>Ainda não há uma vacina específica para o novo Coronavírus. Muitos pesquisadores estão utilizando de diferentes estratégias para a criação da vacina. Segundo a OMS (Organização Mundial da Saúde), pelo menos oito tipos de vacinas já estão
+                    sendo testadas em humanos, em busca da imunização mais eficiente para o controle da nova doença.</p>
+            </div>
+        </section>
+        <section id="aboutApp">
+            <div class="aboutApp">
+                <h2><i class="fas fa-lungs-virus"></i> CovidMonitor</h2>
+                <h4>Dados atualizados sobre o Novo Coronavírus.</h4>
+                <p>O CovidMonitor foi criado para servir de canal de consulta sobre o estado da doença no Brasil. Funciona utilizando a <strong>API</strong> (Application Programming Interface) DISEASE.SH, cujo as fontes são Johns Hopkins University, Worldometers
+                    e dados individuais de governos ao redor do mundo. No momento o CovidMonitor está em fase beta de desenvolvimento, portanto, a consulta de dados sobre outros países ainda está indisponível.</p>
+                <h3>Quem desenvolve a aplicação?</h3>
+                <p>Atualmente é fruto do esforço individual de <a href="https://lucas-andre.github.io" target="_blanck">Lucas André.</a></p>
+                <p>A aplicação está sob a lincença MIT. Copie à vontade 😉</p>
+            </div>
+        </section>
+    </main>
+    <script src="covid.js"></script>
+</body>
+
+</html>
