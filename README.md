@@ -1,3 +1,4 @@
+![Covid19](https://redesuldenoticias.com.br/content/uploads/2020/07/covid19-folhainformativa-1000px-shutterstock-Corona-Borealis-Studio.jpg)  
 # CovidMonitor
 **Última atualização do estado do novo coronavírus no Brasil.**
 
