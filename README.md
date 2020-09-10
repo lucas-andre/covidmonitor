@@ -1,4 +1,4 @@
-![Covid19](https://github.com/lucas-andre/covidmonitor/blob/master/Covidmonitor.png?raw=true)
+![Covid19](https://github.com/lucas-andre/covidmonitor/blob/master/styles/Covidmonitor.png?raw=true)
 # CovidMonitor (fase beta)
 **Última atualização do estado do novo coronavírus no Brasil.**
 
