@@ -18,7 +18,7 @@ Além de compartilhar com seus amigos, você pode contribuir abrindo issues ou s
 Baixe os arquivos compactados em .zip diretamente do repositório.
 
 **Por linha de comando.**
-Abra o Git Bash e cole: `git clone https://github.com/lucas-andre/covidmonitor`
+Abra o Git Bash e cole: `git clone https://github.com/lucas-andre/covidmonitor.git`
 
 ## 📃 Licença 
 
