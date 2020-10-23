@@ -1,8 +1,8 @@
-![Covid19](https://github.com/lucas-andre/covidmonitor/blob/master/styles/Covidmonitor.png?raw=true)
 # CovidMonitor (fase beta)
 **Última atualização do estado do novo coronavírus no Brasil.**
 
-Aplicação Web que monitora os dados da COVID-19 no Brasil, utilizando a a API, [desiase.sh](https://corona.lmao.ninja/), com JavaScript e CSS flexbox.
+Aplicação Web que monitora os dados da COVID-19 no Brasil, utilizando a a API, [desiase.sh](https://corona.lmao.ninja/), com JavaScript e CSS flexbox.  
+![CovidMonitor](styles/Covidmonitor.png)  
 
 ## 🔬 Onde visualizar o projeto?
 
