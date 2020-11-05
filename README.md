@@ -1,4 +1,4 @@
-# CovidMonitor (fase beta)
+# CovidMonitor
 **Última atualização do estado do novo coronavírus no Brasil.**
 
 Aplicação Web que monitora os dados da COVID-19 no Brasil, utilizando a a API, [desiase.sh](https://corona.lmao.ninja/), com JavaScript e CSS flexbox.  
